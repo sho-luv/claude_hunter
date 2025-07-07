@@ -476,7 +476,7 @@ class GitHubClaudeContributorFinder:
 def main():
     parser = argparse.ArgumentParser(description="Find GitHub repositories with Claude as contributor")
     parser.add_argument("target", help="GitHub username, organization, or URL to search")
-    parser.add_argument("--token", "-k", help="GitHub personal access token")
+    parser.add_argument("--token", "-k", help="GitHub personal access token (create at https://github.com/settings/personal-access-tokens)")
     parser.add_argument("--output", "-o", default="claude_repos.json", help="Output JSON file")
     parser.add_argument("--max-repos", "-m", type=int, default=100, help="Maximum repositories to check")
     parser.add_argument("--verbose", "-v", action="store_true", help="Enable verbose output")
