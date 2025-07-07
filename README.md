@@ -146,7 +146,7 @@ Results are saved in a structured JSON format:
 
 For higher rate limits and access to private repositories, create a GitHub Personal Access Token:
 
-1. Go to GitHub Settings → Developer settings → Personal access tokens
+1. Go to [GitHub Settings → Personal access tokens](https://github.com/settings/personal-access-tokens)
 2. Generate a new token with `repo` scope
 3. Use with `--token` or `-k` flag
 
